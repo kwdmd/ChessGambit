@@ -12,18 +12,18 @@
     },
     {
       "path": "Build/Web.data.unityweb",
-      "bytes": 61315793,
-      "sha256": "3d51b0259d8408aa448f5eaea9fd2c498cd11dacbed392041b82244567718a02",
+      "bytes": 61315478,
+      "sha256": "b037915721ffa86f095894361a5042feb53de9ff2c32dd6f0f28157db1486d68",
       "parts": [
-        "chunks/3d51b0259d8408aa448f5eaea9fd2c498cd11dacbed392041b82244567718a02.000.part",
-        "chunks/3d51b0259d8408aa448f5eaea9fd2c498cd11dacbed392041b82244567718a02.001.part",
-        "chunks/3d51b0259d8408aa448f5eaea9fd2c498cd11dacbed392041b82244567718a02.002.part"
+        "chunks/b037915721ffa86f095894361a5042feb53de9ff2c32dd6f0f28157db1486d68.000.part",
+        "chunks/b037915721ffa86f095894361a5042feb53de9ff2c32dd6f0f28157db1486d68.001.part",
+        "chunks/b037915721ffa86f095894361a5042feb53de9ff2c32dd6f0f28157db1486d68.002.part"
       ]
     },
     {
       "path": "Build/Web.framework.js.unityweb",
       "bytes": 90681,
-      "sha256": "8a39968cd13777229a84c6cc842df44e1a6a2fa60fa75593f490991d8967b338",
+      "sha256": "400070835bfb0f97ec546d27c6d1919c4964758616aa4c8da1746674dc29d83e",
       "parts": [
         "site/Build/Web.framework.js.unityweb"
       ]
@@ -31,7 +31,7 @@
     {
       "path": "Build/Web.loader.js",
       "bytes": 48536,
-      "sha256": "b56ea7104c0e4fcba929d0ba785b06ce222801e065a1b43903397731fba4ac9d",
+      "sha256": "9cb2ddbef4b5df3f1d01a13feaaf6222813739e1648110e15d53c19b4f817048",
       "parts": [
         "site/Build/Web.loader.js"
       ]
@@ -46,8 +46,8 @@
     },
     {
       "path": "Build/Web.wasm.unityweb",
-      "bytes": 11563947,
-      "sha256": "ab5ab471dacb5908bfd36ef6f4d397884948a5ea8bc863766a4e556009767037",
+      "bytes": 11566220,
+      "sha256": "98c48dd53e194698f86e59cba4675a5b65470df6676687eeb9667d43680a11df",
       "parts": [
         "site/Build/Web.wasm.unityweb"
       ]
@@ -55,7 +55,7 @@
     {
       "path": "index.html",
       "bytes": 5428,
-      "sha256": "29f60f6ff7c455267459a5818750b06d5c96239860a5260f44286adee477e9a8",
+      "sha256": "0c31ec97019036b2aad092f698ce3d3ee0558a7a64cd614919ff060a571d0774",
       "parts": [
         "site/index.html"
       ]
