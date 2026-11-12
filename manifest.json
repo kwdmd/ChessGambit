@@ -12,12 +12,12 @@
     },
     {
       "path": "Build/Web.data.unityweb",
-      "bytes": 61315788,
-      "sha256": "cb53088c34aef34650d3214118ebdd83325d64773f7778bfaad0cf6ecb86b107",
+      "bytes": 61321831,
+      "sha256": "b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb",
       "parts": [
-        "chunks/cb53088c34aef34650d3214118ebdd83325d64773f7778bfaad0cf6ecb86b107.000.part",
-        "chunks/cb53088c34aef34650d3214118ebdd83325d64773f7778bfaad0cf6ecb86b107.001.part",
-        "chunks/cb53088c34aef34650d3214118ebdd83325d64773f7778bfaad0cf6ecb86b107.002.part"
+        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.000.part",
+        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.001.part",
+        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.002.part"
       ]
     },
     {
@@ -55,7 +55,7 @@
     {
       "path": "index.html",
       "bytes": 5428,
-      "sha256": "48b1e7b5cf3fe6c399fad55ba14d4e47e613ee37907e698b42de6df0aa0ea314",
+      "sha256": "e4a096d36a55d387b313d63a1c61a6ef9ebf365b8762289ff6b8716bb151612c",
       "parts": [
         "site/index.html"
       ]
@@ -63,57 +63,57 @@
     {
       "path": "NPC/catalog.json",
       "bytes": 1552,
-      "sha256": "da311a89c5faeb817bc9c9db532e78b875f5fecb738887f262324786e8f24778",
+      "sha256": "4baf28b6e7075fcbe3f02dead6e7e6cff43ee08cc3f9569b254ba246c4830bb0",
       "parts": [
         "site/NPC/catalog.json"
       ]
     },
     {
-      "path": "NPC/knight-caaae77a6ac1021e.npc",
-      "bytes": 1174656,
-      "sha256": "caaae77a6ac1021ea18f602e26a9b5ee810e5478919fa042f7de3e0fde0fb1bb",
+      "path": "NPC/knight-58cc527e78f62d9f.bundle",
+      "bytes": 1518270,
+      "sha256": "58cc527e78f62d9f07bd3c51096055501052f9bac150988bba14869827a6129d",
       "parts": [
-        "site/NPC/knight-caaae77a6ac1021e.npc"
+        "site/NPC/knight-58cc527e78f62d9f.bundle"
       ]
     },
     {
-      "path": "NPC/knight-f91a08072a28cf04.bundle",
-      "bytes": 1518268,
-      "sha256": "f91a08072a28cf04104ae30357b637fa3d63f2f76589dda61542f934580f85cb",
+      "path": "NPC/knight-eef250cc3ce06043.npc",
+      "bytes": 1174703,
+      "sha256": "eef250cc3ce06043f44f2825834a9303253324a2f01d81105eafe1c53e3c0c61",
       "parts": [
-        "site/NPC/knight-f91a08072a28cf04.bundle"
+        "site/NPC/knight-eef250cc3ce06043.npc"
       ]
     },
     {
-      "path": "NPC/pawn-b-b817709ccadc60b9.bundle",
-      "bytes": 11195050,
-      "sha256": "b817709ccadc60b97236b56c29d0dd0f1122c55eb3d425e8340318859c3d98c9",
+      "path": "NPC/pawn-b-6fba589f0695bc1e.npc",
+      "bytes": 8650994,
+      "sha256": "6fba589f0695bc1e8ecdc3f6f25d9b7290bc9463085236e58eac0e845fa0e04c",
       "parts": [
-        "site/NPC/pawn-b-b817709ccadc60b9.bundle"
+        "site/NPC/pawn-b-6fba589f0695bc1e.npc"
       ]
     },
     {
-      "path": "NPC/pawn-b-cdc18eb8b086b431.npc",
-      "bytes": 8650927,
-      "sha256": "cdc18eb8b086b431f8a02e4fb941b69b6df555024bf45be1f372890bc9d6f758",
+      "path": "NPC/pawn-b-d4ca3bff66f039e2.bundle",
+      "bytes": 11194949,
+      "sha256": "d4ca3bff66f039e24c3b5a80d67d1d158a72d78c28d3083740fe6c79594fbef9",
       "parts": [
-        "site/NPC/pawn-b-cdc18eb8b086b431.npc"
+        "site/NPC/pawn-b-d4ca3bff66f039e2.bundle"
       ]
     },
     {
-      "path": "NPC/rook-56e51876eae1702d.npc",
-      "bytes": 6015297,
-      "sha256": "56e51876eae1702db7c76cece4edeced4824ce00e9b5f0b84d4abab1d9dfb950",
+      "path": "NPC/rook-2f90d8331de11ac9.npc",
+      "bytes": 6015406,
+      "sha256": "2f90d8331de11ac9eabac08c9db4e352072980336e666b9ee1fba1d5f525b649",
       "parts": [
-        "site/NPC/rook-56e51876eae1702d.npc"
+        "site/NPC/rook-2f90d8331de11ac9.npc"
       ]
     },
     {
-      "path": "NPC/rook-e7a65ed6feae74d3.bundle",
-      "bytes": 7810726,
-      "sha256": "e7a65ed6feae74d3f01a6935f08b4744538afb3f2a875a54386820650a388b4a",
+      "path": "NPC/rook-789ac829344f51e0.bundle",
+      "bytes": 7810943,
+      "sha256": "789ac829344f51e031fafb72100eb5f4e0731f9dc87e57516ab5d83ab3dc339c",
       "parts": [
-        "site/NPC/rook-e7a65ed6feae74d3.bundle"
+        "site/NPC/rook-789ac829344f51e0.bundle"
       ]
     },
     {
