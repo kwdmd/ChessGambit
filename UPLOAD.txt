@@ -14,9 +14,18 @@ ChessGambit — GitHub Desktop 업로드
 
 site, chunks, manifest.json, scripts, .github를 모두 올려야 합니다.
 _site는 로컬 검증용 복원 결과이며 Git에서 제외됩니다.
-GitHubPages/Web 원본 폴더를 추가로 복사하지 마세요. 100MiB 초과 파일이 포함됩니다.
+GitHubPages/Web 원본 폴더를 추가로 복사하지 마세요. 이 저장소의 manifest.json과 분할 파일을 사용합니다.
 Git LFS, 개인 액세스 토큰, Unity 라이선스 설정은 필요하지 않습니다.
 Actions는 Unity를 재빌드하지 않고 분할 파일을 합쳐 SHA-256 검증 후 배포합니다.
 새 Unity 빌드를 올릴 때는 조각 파일과 manifest.json을 함께 갱신해야 합니다.
 로컬 복원 검증(Node.js 필요): node scripts/assemble.mjs
 분할은 업로드를 위한 것으로 방문자의 전체 다운로드 용량은 동일합니다.
+
+순차 NPC 로딩 빌드 안내 (2026-11-12)
+- 맵과 플레이어 준비 후 이동할 수 있고 나이트 → 룩 → 폰b 순서로 등장합니다.
+- site/NPC와 site/NpcStreaming.js도 반드시 함께 업로드합니다.
+- .npc는 기본 압축 파일, .bundle은 압축 해제를 지원하지 않는 브라우저용 대체 파일입니다. 방문자는 둘 중 하나만 받습니다.
+- Unity 변경 후 CapStone > Build Web (Sequential NPCs) 메뉴로 빌드하세요.
+- 일반 Build Profiles의 기존 씬 빌드는 이번 순차 로딩 준비 과정을 실행하지 않습니다.
+- 생성된 Web 폴더 전체를 outputs/GitHubPages/Web에 반영한 뒤 작업 폴더에서 node work/package-pages.mjs를 실행합니다.
+- node outputs/ChessGambit/scripts/assemble.mjs 검증 후 GitHub Desktop에서 변경사항 Commit > Push origin.

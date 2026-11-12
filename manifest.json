@@ -12,21 +12,19 @@
     },
     {
       "path": "Build/Web.data.unityweb",
-      "bytes": 123911219,
-      "sha256": "1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f",
+      "bytes": 63788189,
+      "sha256": "6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10",
       "parts": [
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.000.part",
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.001.part",
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.002.part",
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.003.part",
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.004.part",
-        "chunks/1fbaa91ed18af3bcdf9b0a4bf8a3273507c055a26ed1931239194fc4239a047f.005.part"
+        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.000.part",
+        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.001.part",
+        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.002.part",
+        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.003.part"
       ]
     },
     {
       "path": "Build/Web.framework.js.unityweb",
-      "bytes": 89040,
-      "sha256": "59a247538a5b982a79044933d4e0590645566a94197a81677ddf3010fbb7a086",
+      "bytes": 90692,
+      "sha256": "59f0534b5675915fef5840928cc382a9ee44c0727be7e0fdaf9e2bd48fe3a07f",
       "parts": [
         "site/Build/Web.framework.js.unityweb"
       ]
@@ -34,25 +32,89 @@
     {
       "path": "Build/Web.loader.js",
       "bytes": 48114,
-      "sha256": "d85afe717877185c58f9a127584324e419051d8af9bcb2aacfeb884ac24117ef",
+      "sha256": "66c61e71fbf0da3b5817a97093c80123ecea439ec11a5df5443bf2695efbf8ad",
       "parts": [
         "site/Build/Web.loader.js"
       ]
     },
     {
       "path": "Build/Web.wasm.unityweb",
-      "bytes": 11482140,
-      "sha256": "208e433dea24f5dcec78f51545cc2141ca5d9117942f49cf717019f98fb9916c",
+      "bytes": 11559507,
+      "sha256": "ceea0260edbadd77b9e55ef57a269932aebb6935aa2d7e06fd89c0f84b531cbc",
       "parts": [
         "site/Build/Web.wasm.unityweb"
       ]
     },
     {
       "path": "index.html",
-      "bytes": 2104,
-      "sha256": "214b74903ef2644d36d26225e142dbd8bc32c7b389a095f2f539e1db425140ec",
+      "bytes": 2356,
+      "sha256": "a05c330e525d4121ada8212ae502f0af18a5434da0d224e37ac544a4566d0e7e",
       "parts": [
         "site/index.html"
+      ]
+    },
+    {
+      "path": "NPC/catalog.json",
+      "bytes": 1552,
+      "sha256": "6b6b87c764ab93dfb52efe6f36882734a358473cf5fee79ffe58ae6e31446298",
+      "parts": [
+        "site/NPC/catalog.json"
+      ]
+    },
+    {
+      "path": "NPC/knight-5545eaf8e0da0ad5.bundle",
+      "bytes": 1541694,
+      "sha256": "5545eaf8e0da0ad53b7d410dd7e55c279e8186e21e82c6d0bed4645707f20d35",
+      "parts": [
+        "site/NPC/knight-5545eaf8e0da0ad5.bundle"
+      ]
+    },
+    {
+      "path": "NPC/knight-6600a2e095b45834.npc",
+      "bytes": 1165982,
+      "sha256": "6600a2e095b4583450c2c1b04b6550979332b5e8d5dbb91fde5b3c6babc96e39",
+      "parts": [
+        "site/NPC/knight-6600a2e095b45834.npc"
+      ]
+    },
+    {
+      "path": "NPC/pawn-b-beefcc81aec5ae8b.npc",
+      "bytes": 8652334,
+      "sha256": "beefcc81aec5ae8ba0ff467ed741dcf80f3a384ee775daad78db35d4d3e43ff5",
+      "parts": [
+        "site/NPC/pawn-b-beefcc81aec5ae8b.npc"
+      ]
+    },
+    {
+      "path": "NPC/pawn-b-d75660e3844d7390.bundle",
+      "bytes": 11212037,
+      "sha256": "d75660e3844d7390de30de333773550f9c9da0489834f6281d26ddb3460cdfc6",
+      "parts": [
+        "site/NPC/pawn-b-d75660e3844d7390.bundle"
+      ]
+    },
+    {
+      "path": "NPC/rook-d19d0906de38a0a6.bundle",
+      "bytes": 7836135,
+      "sha256": "d19d0906de38a0a662ca27a595dd38c258dae2eb549b3df0f3b84f07048e647d",
+      "parts": [
+        "site/NPC/rook-d19d0906de38a0a6.bundle"
+      ]
+    },
+    {
+      "path": "NPC/rook-d3c96ad4b29388e4.npc",
+      "bytes": 6031035,
+      "sha256": "d3c96ad4b29388e47c2c69637b8b6cd754a1050d8df9b9d2b71d97c9cebe42e6",
+      "parts": [
+        "site/NPC/rook-d3c96ad4b29388e4.npc"
+      ]
+    },
+    {
+      "path": "NpcStreaming.js",
+      "bytes": 2094,
+      "sha256": "5e6e053c938a030203c1b7fd9ed7c110efd033d0d3780bcf13e006eef6dc0a71",
+      "parts": [
+        "site/NpcStreaming.js"
       ]
     },
     {
