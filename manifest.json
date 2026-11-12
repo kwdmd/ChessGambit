@@ -12,18 +12,18 @@
     },
     {
       "path": "Build/Web.data.unityweb",
-      "bytes": 61321831,
-      "sha256": "b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb",
+      "bytes": 61313090,
+      "sha256": "90be4ec2a1722c1b4c69c1c0ff8d11dcfb4e6eda3114785cb3510e252cbfe139",
       "parts": [
-        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.000.part",
-        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.001.part",
-        "chunks/b9319e6b806f02ffeaeb41126f960e3505a131d975d8c2a626d0b526875795eb.002.part"
+        "chunks/90be4ec2a1722c1b4c69c1c0ff8d11dcfb4e6eda3114785cb3510e252cbfe139.000.part",
+        "chunks/90be4ec2a1722c1b4c69c1c0ff8d11dcfb4e6eda3114785cb3510e252cbfe139.001.part",
+        "chunks/90be4ec2a1722c1b4c69c1c0ff8d11dcfb4e6eda3114785cb3510e252cbfe139.002.part"
       ]
     },
     {
       "path": "Build/Web.framework.js.unityweb",
       "bytes": 90681,
-      "sha256": "92738569dd09ac69c4b50538c0eb9f766347e0b5518fe43f74bd1f18c4a3d3d3",
+      "sha256": "89af5e3b45417662f6c9008fd74a25ee3857f0f26ad5fa83d9f080b743e15a06",
       "parts": [
         "site/Build/Web.framework.js.unityweb"
       ]
@@ -31,23 +31,23 @@
     {
       "path": "Build/Web.loader.js",
       "bytes": 48536,
-      "sha256": "9cb2ddbef4b5df3f1d01a13feaaf6222813739e1648110e15d53c19b4f817048",
+      "sha256": "e4d18d947d92d53ba5d539df45186c1290c43b04f6ebb69add364903864b1d4e",
       "parts": [
         "site/Build/Web.loader.js"
       ]
     },
     {
       "path": "Build/Web.symbols.json.unityweb",
-      "bytes": 3095543,
-      "sha256": "0e63043e5792005ba3e7a3b0f84811fe2e0380091e2728fec5e56f47336ffd55",
+      "bytes": 3095701,
+      "sha256": "1fc72869ded24cd0d8acd61ca22f11825626bbcb971524a791ce15ebd67141b0",
       "parts": [
         "site/Build/Web.symbols.json.unityweb"
       ]
     },
     {
       "path": "Build/Web.wasm.unityweb",
-      "bytes": 11566211,
-      "sha256": "f919efc04775ef5bdb5ffdab29541ae535108a583cf1a59d6e79b302412473f9",
+      "bytes": 11565666,
+      "sha256": "a3eb1382a2bc1a1397e66ffec86fd936afec79249224db698618c36d1ed3ed05",
       "parts": [
         "site/Build/Web.wasm.unityweb"
       ]
@@ -55,7 +55,7 @@
     {
       "path": "index.html",
       "bytes": 5428,
-      "sha256": "e4a096d36a55d387b313d63a1c61a6ef9ebf365b8762289ff6b8716bb151612c",
+      "sha256": "d075b5f0b51423fc63a18f0839814c783f9325924b8ba57ddf22122335a1ceab",
       "parts": [
         "site/index.html"
       ]
