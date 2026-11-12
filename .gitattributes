@@ -1,0 +1,6 @@
+* text=auto
+site/** -text
+chunks/** -text
+*.mjs text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
