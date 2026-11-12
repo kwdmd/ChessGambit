@@ -12,19 +12,19 @@
     },
     {
       "path": "Build/Web.data.unityweb",
-      "bytes": 63788189,
-      "sha256": "6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10",
+      "bytes": 63775222,
+      "sha256": "683c8fba5e4005251be007222e360a17c6a638fca1cc999c08a9ed504c547b46",
       "parts": [
-        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.000.part",
-        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.001.part",
-        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.002.part",
-        "chunks/6214b942c431d5bb5430352bbb0a6ecd90d769f91512b1cae4bfed3181368b10.003.part"
+        "chunks/683c8fba5e4005251be007222e360a17c6a638fca1cc999c08a9ed504c547b46.000.part",
+        "chunks/683c8fba5e4005251be007222e360a17c6a638fca1cc999c08a9ed504c547b46.001.part",
+        "chunks/683c8fba5e4005251be007222e360a17c6a638fca1cc999c08a9ed504c547b46.002.part",
+        "chunks/683c8fba5e4005251be007222e360a17c6a638fca1cc999c08a9ed504c547b46.003.part"
       ]
     },
     {
       "path": "Build/Web.framework.js.unityweb",
-      "bytes": 90692,
-      "sha256": "59f0534b5675915fef5840928cc382a9ee44c0727be7e0fdaf9e2bd48fe3a07f",
+      "bytes": 90681,
+      "sha256": "9a39623bcc7f7d9741c942ddb1f7d04fd69a0952348e79b59f721dfe22b8d303",
       "parts": [
         "site/Build/Web.framework.js.unityweb"
       ]
@@ -32,23 +32,23 @@
     {
       "path": "Build/Web.loader.js",
       "bytes": 48114,
-      "sha256": "66c61e71fbf0da3b5817a97093c80123ecea439ec11a5df5443bf2695efbf8ad",
+      "sha256": "705e3385fa17b6e24264ff44b87b2472046a39cd9a598f5a9d98dcc1f94193f7",
       "parts": [
         "site/Build/Web.loader.js"
       ]
     },
     {
       "path": "Build/Web.wasm.unityweb",
-      "bytes": 11559507,
-      "sha256": "ceea0260edbadd77b9e55ef57a269932aebb6935aa2d7e06fd89c0f84b531cbc",
+      "bytes": 11561069,
+      "sha256": "48a3fe8740051677bdb5321e3571fb863de3d8b4ca5f28d867b7ad30ccb49c84",
       "parts": [
         "site/Build/Web.wasm.unityweb"
       ]
     },
     {
       "path": "index.html",
-      "bytes": 2356,
-      "sha256": "a05c330e525d4121ada8212ae502f0af18a5434da0d224e37ac544a4566d0e7e",
+      "bytes": 2745,
+      "sha256": "1d48bdc215fc659782ab1f6882dc93eba268da6b42efc6a64f2d3a675736fe8f",
       "parts": [
         "site/index.html"
       ]
@@ -111,8 +111,8 @@
     },
     {
       "path": "NpcStreaming.js",
-      "bytes": 2094,
-      "sha256": "5e6e053c938a030203c1b7fd9ed7c110efd033d0d3780bcf13e006eef6dc0a71",
+      "bytes": 2166,
+      "sha256": "09e351f7b6c57129ce46acfa921bf2ee79d89083b8e203f77732ebfb19d880a4",
       "parts": [
         "site/NpcStreaming.js"
       ]
