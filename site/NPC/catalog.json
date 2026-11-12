@@ -3,35 +3,35 @@
         {
             "id": "knight",
             "label": "나이트",
-            "file": "knight-6600a2e095b45834.npc",
-            "rawFile": "knight-5545eaf8e0da0ad5.bundle",
-            "sha256": "6600a2e095b4583450c2c1b04b6550979332b5e8d5dbb91fde5b3c6babc96e39",
-            "rawSha256": "5545eaf8e0da0ad53b7d410dd7e55c279e8186e21e82c6d0bed4645707f20d35",
+            "file": "knight-caaae77a6ac1021e.npc",
+            "rawFile": "knight-f91a08072a28cf04.bundle",
+            "sha256": "caaae77a6ac1021ea18f602e26a9b5ee810e5478919fa042f7de3e0fde0fb1bb",
+            "rawSha256": "f91a08072a28cf04104ae30357b637fa3d63f2f76589dda61542f934580f85cb",
             "asset": "assets/capstoneoriginal/streamingprefabs/knight.prefab",
-            "bytes": 1165982,
-            "rawBytes": 1541694
+            "bytes": 1174656,
+            "rawBytes": 1518268
         },
         {
             "id": "rook",
             "label": "룩",
-            "file": "rook-d3c96ad4b29388e4.npc",
-            "rawFile": "rook-d19d0906de38a0a6.bundle",
-            "sha256": "d3c96ad4b29388e47c2c69637b8b6cd754a1050d8df9b9d2b71d97c9cebe42e6",
-            "rawSha256": "d19d0906de38a0a662ca27a595dd38c258dae2eb549b3df0f3b84f07048e647d",
+            "file": "rook-56e51876eae1702d.npc",
+            "rawFile": "rook-e7a65ed6feae74d3.bundle",
+            "sha256": "56e51876eae1702db7c76cece4edeced4824ce00e9b5f0b84d4abab1d9dfb950",
+            "rawSha256": "e7a65ed6feae74d3f01a6935f08b4744538afb3f2a875a54386820650a388b4a",
             "asset": "assets/capstoneoriginal/streamingprefabs/rook.prefab",
-            "bytes": 6031035,
-            "rawBytes": 7836135
+            "bytes": 6015297,
+            "rawBytes": 7810726
         },
         {
             "id": "pawn-b",
             "label": "폰b",
-            "file": "pawn-b-beefcc81aec5ae8b.npc",
-            "rawFile": "pawn-b-d75660e3844d7390.bundle",
-            "sha256": "beefcc81aec5ae8ba0ff467ed741dcf80f3a384ee775daad78db35d4d3e43ff5",
-            "rawSha256": "d75660e3844d7390de30de333773550f9c9da0489834f6281d26ddb3460cdfc6",
+            "file": "pawn-b-cdc18eb8b086b431.npc",
+            "rawFile": "pawn-b-b817709ccadc60b9.bundle",
+            "sha256": "cdc18eb8b086b431f8a02e4fb941b69b6df555024bf45be1f372890bc9d6f758",
+            "rawSha256": "b817709ccadc60b97236b56c29d0dd0f1122c55eb3d425e8340318859c3d98c9",
             "asset": "assets/capstoneoriginal/streamingprefabs/pawn-b.prefab",
-            "bytes": 8652334,
-            "rawBytes": 11212037
+            "bytes": 8650927,
+            "rawBytes": 11195050
         }
     ]
 }

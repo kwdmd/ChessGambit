@@ -29,3 +29,10 @@ Actions는 Unity를 재빌드하지 않고 분할 파일을 합쳐 SHA-256 검�
 - 일반 Build Profiles의 기존 씬 빌드는 이번 순차 로딩 준비 과정을 실행하지 않습니다.
 - 생성된 Web 폴더 전체를 outputs/GitHubPages/Web에 반영한 뒤 작업 폴더에서 node work/package-pages.mjs를 실행합니다.
 - node outputs/ChessGambit/scripts/assemble.mjs 검증 후 GitHub Desktop에서 변경사항 Commit > Push origin.
+모바일 GPU 안정성 빌드 (2026-11-12)
+- 배포용 텍스처 ASTC 4x4, 정적 렌더 배율 1.0, 미사용 플레이어 Animator 제거.
+- NPC 번들의 타입 정보를 본체 빌드에 전달하므로 CapStone 메뉴의 순차 NPC 빌드를 사용합니다.
+- Build/Web.symbols.json.unityweb은 오류 발생 시 함수명 확인용이므로 함께 업로드합니다.
+- iOS에서 짧은 시간에 시작이 반복 중단되면 자동 시작을 멈추고 다시 시작 버튼을 표시합니다.
+- 오류 화면의 오류 정보 저장 버튼은 기기 내 텍스트 파일을 생성하며 외부로 자동 전송하지 않습니다.
+- 실제 iPhone 12/Safari 및 Galaxy Tab S9+/Chrome에서 재확인이 필요합니다.

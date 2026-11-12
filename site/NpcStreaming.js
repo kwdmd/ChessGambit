@@ -1,5 +1,6 @@
 (function(){
 window.capstoneNpcFetch=async function(entry,send){
+ window.capstoneStage?.("npc-download:"+entry.id);
  const compressed=typeof DecompressionStream==='function',file=compressed?entry.file:entry.rawFile,expected=compressed?entry.sha256:entry.rawSha256,total=compressed?entry.bytes:entry.rawBytes,url=new URL('NPC/'+file,location.href).href;
  let cache;try{cache=await caches.open('chessgambit-npc-v1');}catch{}
  try{
@@ -13,7 +14,7 @@ window.capstoneNpcFetch=async function(entry,send){
    if(crypto.subtle){const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('');if(hash!==expected)throw Error('NPC file integrity mismatch');}
    if(cache&&!window.capstoneDevice?.ios){try{await cache.put(url,new Response(bytes,{headers:{'Content-Type':'application/octet-stream'}}));}catch{}}
   }finally{clearTimeout(timeout);}}
-  send('DownloadProgress','1');
+  window.capstoneStage?.('npc-data-ready:'+entry.id);send('DownloadProgress','1');
   const packedBlob=new Blob([bytes],{type:'application/octet-stream'});bytes=null;
   const payload=compressed?await new Response(packedBlob.stream().pipeThrough(new DecompressionStream('gzip'))).blob():packedBlob;
   const blob=URL.createObjectURL(payload);send('DownloadReady',JSON.stringify({url:blob}));
